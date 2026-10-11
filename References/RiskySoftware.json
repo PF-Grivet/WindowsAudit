@@ -1,0 +1,13 @@
+{
+  "last_updated": "2026-06-10",
+  "source": "ANSSI",
+  "risky_software": [
+    { "name": "Adobe Flash", "reason": "EOL depuis 2020, vulnérabilités critiques non corrigées", "severity": "Critique" },
+    { "name": "Adobe Acrobat Reader DC", "reason": "Vecteur d'attaque fréquent, maintenir à jour", "severity": "Élevé" },
+    { "name": "Silverlight", "reason": "EOL depuis 2021", "severity": "Critique" },
+    { "name": "Java 6", "reason": "Version EOL, vulnérabilités non corrigées", "severity": "Critique" },
+    { "name": "Java 7", "reason": "Version EOL, vulnérabilités non corrigées", "severity": "Critique" },
+    { "name": "VLC", "reason": "Maintenir à jour, vecteur d'attaque documenté", "severity": "Moyen" },
+    { "name": "WinRAR", "reason": "Maintenir à jour, CVE critiques documentées", "severity": "Élevé" }
+  ]
+}
